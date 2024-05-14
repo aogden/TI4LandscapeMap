@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "TI4 Extension",
+    "content_scripts": [
+        {
+            "matches": ["*://ti4.westaddisonheavyindustries.com/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
