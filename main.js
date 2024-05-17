@@ -66,6 +66,7 @@ switchOrientationButton.addEventListener('click', function() {
 // Create and add the split percentage label
 const splitPercentageLabel = document.createElement('span');
 splitPercentageLabel.textContent = 'Split %';
+splitPercentageLabel.style.color = 'white';
 gamebar.appendChild(splitPercentageLabel);
 
 // Create and add the split percentage slider
